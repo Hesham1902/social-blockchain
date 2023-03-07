@@ -22,7 +22,7 @@
       "truffle": "5.0.5",
       "web3": "1.0.0-beta.55"
     },
-    "homepage": "https://github.com/Hesham1902/social-blockchain.git",
+    "homepage": "",
     "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build && truffle compile && truffle migrate --reset --network production && cd client && npm install && npm run build",
